@@ -1,0 +1,17 @@
+package day22_methodReturnValue;
+
+public class TestCalculator {
+
+	public static void main(String[] args) {
+
+		int a = 0;
+		int b = 5;
+		int c = 3;
+		
+		
+		Calculator.addition(a,b);
+		
+		
+	}
+
+}

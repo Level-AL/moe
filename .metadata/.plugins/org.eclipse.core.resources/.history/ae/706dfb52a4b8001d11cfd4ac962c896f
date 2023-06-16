@@ -1,0 +1,56 @@
+package day22_methodReturnValue;
+
+public class PasswordValidation {
+
+	public static void main(String[] args) {
+
+		/*Must contain:
+		 * 8-20 characters
+		 * and 2 of the following :
+		 * 
+		 * 
+		 */
+		
+		String password = "password@1";
+		
+		boolean hasLowerCase = false;
+		boolean hasUpperCase = false;
+		boolean hasDigit = false;
+		
+		
+		if (password.length()>=8 && password.length() <=20 
+				&& !password.contains(">")
+				&& !password.contains("<")) {
+			
+			
+		for (int i = 0; i < password.length(); i++) {
+//			System.out.print(password.charAt(i));
+			
+			char letter = password.charAt(i);
+			
+			if (letter >= 'A' && letter <= 'Z') {
+			
+			hasUpperCase = true;
+		}
+			if (letter >= 'a' && letter <= 'z') {
+				
+				hasLowerCase = true;
+			}	
+			if (letter >= '0' && letter <= '9') {
+				
+				hasDigit = true;
+				
+			}
+				
+	}
+		if(hasUpperCase && hasLowerCase && hasDigit) {
+			System.out.println("Valid Password");
+		}else {
+			System.out.println("Invalid Password");
+		}
+		
+	}
+		
+		}
+
+}

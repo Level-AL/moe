@@ -1,0 +1,18 @@
+package day22_methodReturnValue;
+
+public class StringUtil {
+	public static void main(String[] args) {
+		
+		String firstName = "tecHCIrcle";
+		String lastName = "SCHOOL";
+		
+		String output = firstName + " " + lastName ;
+		
+		
+		
+		
+		
+		
+		System.out.println(output);
+	}
+}

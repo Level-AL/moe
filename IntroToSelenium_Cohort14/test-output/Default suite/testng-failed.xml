@@ -5,8 +5,7 @@
     <classes>
       <class name="testNG_testing.TestNG_TestCase">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
+          <include name="Test1openBrowser"/>
         </methods>
       </class> <!-- testNG_testing.TestNG_TestCase -->
     </classes>

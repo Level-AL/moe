@@ -1,0 +1,29 @@
+package restAssuredTests;
+
+import io.restassured.RestAssured;
+
+public class RestAssured_GET {
+
+	public static void main(String[] args) {
+		
+		// set the base url 
+		RestAssured.baseURI = "https://reqres.in/api/users?page=2";
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

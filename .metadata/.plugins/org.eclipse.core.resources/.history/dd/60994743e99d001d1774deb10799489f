@@ -1,0 +1,17 @@
+package day03_variables;
+
+public class PrimitiveTypeFloatandDouble {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float num = (int)9.99;
+		
+		System.out.println(num);
+	
+	
+	
+	
+	}
+
+}

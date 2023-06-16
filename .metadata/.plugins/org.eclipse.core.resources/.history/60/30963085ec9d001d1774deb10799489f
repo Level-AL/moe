@@ -1,0 +1,15 @@
+package day03_variables;
+
+public class CubeVolumeCalculator1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float sidelength = 5.0f;
+		float volume = sidelength * sidelength * sidelength;
+		
+		System.out.println(volume);
+	
+	}
+
+}

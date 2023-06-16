@@ -1,0 +1,30 @@
+package day03_variables;
+
+public class VariableNamingRule {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//All vairable names must start with a letter
+		// an underscore, or a dollar sign
+		// the convention is to always put a letter
+		
+		String _name = "Tech Circle";
+		String $name = "Alex";
+		String  name = "java";
+		
+		String fruit = "apple";
+	    String $cappo =("goober");
+	    
+	    int speed=60;
+	    int SPEED=80;
+	    int Speed= 100;
+	    int speeD= 130;
+	    
+	    System.out.println(SPEED);
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,25 @@
+io.cucumber.junit.UndefinedStepException: The step 'the user is on the homepage' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on the homepage")
+public void the_user_is_on_the_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user enters {string} in the search bar")
+public void the_user_enters_in_the_search_bar(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks on the search button")
+public void clicks_on_the_search_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the user should see search results for {string}")
+public void the_user_should_see_search_results_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

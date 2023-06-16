@@ -1,0 +1,28 @@
+package day22_methodReturnValue;
+
+public class Calculator {
+
+	
+
+		
+		public static int subtraction(int a, int b) {
+			
+			int result = a-b;
+			return result;
+		}
+
+		public static void divison(int a, int b) {
+			System.out.println(a / b);
+		}
+
+		public static void multiplication(int a, int b) {
+			System.out.println(a * b);
+		}
+
+		public static void modulus(int a, int b) {
+			System.out.println(a % b);
+		}
+		
+	
+
+}

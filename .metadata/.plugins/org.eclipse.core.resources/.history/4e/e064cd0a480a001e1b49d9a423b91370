@@ -1,0 +1,31 @@
+package restAssuredTests;
+
+import org.json.simple.JSONObject;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+
+public class RestAssured_Post {
+
+	public static void main(String[] args) {
+
+		// set the base url 
+		RestAssured.baseURI = "https://reqres.in/api/users?page=2";
+		
+		//Create request object
+		RequestSpecification httprequest = RestAssured.given();
+		
+		//request post request
+		//add data and body usins json
+		JSONObject myJson = new JSONObject();
+		
+		myJson.put("page", 73);
+		myJson.put("per page",  36);
+		myJson.put("total", 10);
+		myJson.put("total pages", 2022);
+		
+		
+		
+		
+	}
+}

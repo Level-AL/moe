@@ -1,0 +1,37 @@
+package day22_methodReturnValue;
+
+import java.util.Arrays;
+
+public class ArrayUtils {
+	public static void main(String[] args) {
+		
+		int arr[]= {1,2,3};
+		int arr2[]= {4,5,6,7};
+		
+		int arr3[] = new int[arr.length + arr2.length];
+		
+		System.out.println(arr3.length);
+		
+		int index = 0;
+		
+		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr3));
+
+		arr3[0] = arr[0];
+		arr3[1] = arr[1];
+		arr3[2] = arr[2];
+		arr3[3] = arr[3];
+		arr3[4] = arr[4];
+		arr3[5] = arr[5];
+		arr3[6] = arr[6];
+
+
+		
+
+		
+		System.out.println(Arrays.toString(arr3));
+
+		
+	}
+}

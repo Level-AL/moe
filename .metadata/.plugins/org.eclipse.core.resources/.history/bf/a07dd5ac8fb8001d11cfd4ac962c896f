@@ -1,0 +1,25 @@
+package day22_methodReturnValue;
+
+public class Demo {
+	public static void main(String[] args) {
+	
+		String str = "TechCircle";
+		
+		System.out.println(str.length());
+		
+		int numberOfChar = str.length();
+		
+		System.out.println(numberOfChar);
+		
+		boolean value = str.isEmpty();
+		
+		System.out.println(value);
+		
+		char letter = str.charAt(0);
+		
+		String str2 = str.substring(4,5);
+		
+		System.out.println(str2);
+		
+	}
+}

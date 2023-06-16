@@ -1,0 +1,31 @@
+package day15_StringTasks;
+
+public class Tasks {
+	public static void main(String[] args) {
+		
+		String email = "test@example.com";
+		
+		// the email string must contain the "@" character.
+		
+		boolean containAt = (email.indexOf('@') > -1); // -1 means that it exists
+		
+		if (email.contains("@")) {
+			containAt = true;
+		}
+		
+          // email must contain a '.' charcter 
+		
+		
+		boolean containDot = (email.indexOf('.') > -1 );
+		
+		if (email.contains(".")) {
+			containDot = true;
+		}
+		
+		
+		
+		
+		
+		
+	}
+}

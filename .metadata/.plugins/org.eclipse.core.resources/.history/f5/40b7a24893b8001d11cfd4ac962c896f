@@ -1,0 +1,20 @@
+package day22_methodReturnValue;
+
+public class StringUtil {
+	public static void main(String[] args) {
+		
+		String firstName = "tecHCIrcle";
+		String lastName = "SCHOOL";
+		
+		String output = firstName + " " + lastName ;
+		
+		String str1 = firstName.toUpperCase();
+		String str2 = firstName.toLowerCase();
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		
+		
+		System.out.println(output);
+	}
+}

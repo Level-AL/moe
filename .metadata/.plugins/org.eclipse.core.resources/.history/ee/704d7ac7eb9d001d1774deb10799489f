@@ -1,0 +1,15 @@
+package day03_variables;
+
+public class CubeVolumeCalculator1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float side1 = 5.0f;
+		
+		System.out.println(side1 * side1 * side1);
+	
+	
+	}
+
+}

@@ -1,0 +1,21 @@
+package day22_methodReturnValue;
+
+import java.util.Random;
+
+public class TestDataGeneration {
+	public static void main(String[] args) {
+		
+		String phoneNumber = "703-123-1234";
+		
+		Random random = new Random();
+		
+		int num = random.nextInt(999);
+		
+		System.out.println(num);
+		
+	}
+	
+	
+	
+	
+}

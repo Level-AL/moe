@@ -1,0 +1,22 @@
+package day22_methodReturnValue;
+
+public class TestCalculator {
+
+	public static void main(String[] args) {
+
+		int a = 0;
+		int b = 5;
+		int c = 3;
+		
+		
+	int result = Calculator.addition(a,b);
+	double result2 = Calculator.divison(b, c);
+	
+		System.out.println(result + result2);
+	
+		
+		
+		
+	}
+
+}

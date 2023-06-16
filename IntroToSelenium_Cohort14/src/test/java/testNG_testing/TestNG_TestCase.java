@@ -6,10 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import Utilities.ListenersTestNG;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Listeners(ListenersTestNG.class)
 public class TestNG_TestCase {
 	WebDriver driver;
 

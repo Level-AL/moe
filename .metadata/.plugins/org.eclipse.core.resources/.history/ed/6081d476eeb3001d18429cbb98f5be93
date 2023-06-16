@@ -1,0 +1,28 @@
+package day15_StringTasks;
+
+import java.util.Scanner;
+
+public class Task7 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner (System.in);
+		
+		String str = scan.next();
+		
+		if (str.length() == str.indexOf(" ")) {
+			System.out.println("String is empty");
+		}
+		
+		if (str.length() > 3) {
+			System.out.println(str.substring(str.length()-3));
+		}
+		 
+		if(str.length() <= 3) {
+			System.out.println(str);
+		}
+		
+		scan.close();
+	}
+
+}

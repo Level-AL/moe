@@ -1,0 +1,23 @@
+package day22_methodReturnValue;
+
+public class Task {
+
+	public static void main(String[] args) {
+
+// Create a method that accepts an array of integers and returns largest value
+		
+		
+		int nums[] = {4,1,1,9,3};
+		int maxVal = 0;
+		
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.print(nums[i]);
+			if(nums[i] > maxVal) {
+				maxVal = nums[i];
+			}
+		}
+				System.out.println("The largest number is: "+maxVal);
+	}
+
+}

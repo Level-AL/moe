@@ -1,0 +1,14 @@
+package day22_methodReturnValue;
+
+public class Demo {
+	public static void main(String[] args) {
+	
+		String str = "TechCircle";
+		
+		System.out.println(str.length());
+		
+		
+		
+		
+	}
+}
