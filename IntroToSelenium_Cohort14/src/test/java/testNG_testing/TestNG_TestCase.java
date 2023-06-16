@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.SkipException;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -37,6 +39,15 @@ public class TestNG_TestCase {
 		driver.close();
 		Reporter.log("Driver closed after testing");
 
+	}
+	@Test //skip tets
+	public void skipTest () {
+		throw new SkipException("Skipping the test method");
+	}
+	@Ignore
+	@Test 
+	public void ignoringThis () {
+		System.out.println("This is ignore TEST");
 	}
 
 }
